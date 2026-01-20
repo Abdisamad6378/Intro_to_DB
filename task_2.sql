@@ -11,3 +11,10 @@ CREATE TABLE Books (
     author_id INT,
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 );
+
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(215),
+    email VARCHAR(215),
+    address TEXT
+);
