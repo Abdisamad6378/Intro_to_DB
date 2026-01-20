@@ -1,2 +1,4 @@
-USE alx_book_store;
-SHOW TABLES;
+CREATE TABLE Authors (
+    author_id INT,
+    author_name VARCHAR(100)
+);
